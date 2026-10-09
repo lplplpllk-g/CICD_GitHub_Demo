@@ -9,7 +9,7 @@ int percentage(int earned, int possible) {
     if (scaled > 100) {
         return 100;
     }
-    return static_cast<int>(scaled);
+    return static_cast<int>(scaled)
 }
 
 char letter_grade(int percent) {
